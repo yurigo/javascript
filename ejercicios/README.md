@@ -10,7 +10,7 @@ Crea un formulario en el que el usuario pueda elegir entre tres opciones:
 
 Cuando el usuario haga clic en un botón, se debe mostrar el resultado correspondiente en la página sin recargarla.
 
-> [!INFO]
+> [!NOTE]
 > Usa el objeto [Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) para gestionar la fecha.
 
 ---
