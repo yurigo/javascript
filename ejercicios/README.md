@@ -179,6 +179,9 @@ Ejemplo:
 Entrada: `hola`  
 Salida: `.... --- .-.. .-`
 
+> [!NOTE]
+> [Ver Solución](./soluciones/ejercicio%2019/)
+
 ---
 
 ## Ejercicio 20: Contar Vocales y Consonantes
