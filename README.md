@@ -47,9 +47,9 @@ const suma = (a, b) => a + b;
 
 ## Promesas ([📚](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise))
 
-- [ ] [then](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then)/[catch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/catch)
+- [x] [then](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then)/[catch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/catch)
 
-- [ ] [async](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)/[await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await)
+- [x] [async](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)/[await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await)
 
 ## Fetch ([📚](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API))
 
@@ -100,15 +100,15 @@ try {
 
 ## Eventos
 
-- [ ] click
-- [ ] submit
+- [x] click
+- [x] submit
 - [ ] change
 - [ ] keydown
 - [ ] keyup
 - [ ] keypress
 - [ ] focus
 - [ ] blur
-- [ ] mouseover
+- [x] mouseover
 - [ ] mouseout
 - [ ] mousemove
 - [ ] mousedown
@@ -120,7 +120,7 @@ try {
 - [ ] touchmove
 - [ ] touchcancel
 - [ ] scroll
-- [ ] resize
+- [x] resize
 - [ ] load
-- [ ] addEventListener
+- [x] addEventListener
 - [ ] removeEventListener
