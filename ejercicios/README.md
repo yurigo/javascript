@@ -198,3 +198,112 @@ Al hacer clic en un botón, se debe mostrar:
 ---
 
 Cada ejercicio debe realizarse sin recargar la página, utilizando **HTML, CSS y JavaScript** para manejar la interacción.
+
+
+# Más Ejercicios de JavaScript en Frontend
+
+## Ejercicio 21: Contador de Caracteres Únicos
+Crea un formulario donde el usuario ingrese una palabra o frase.  
+Al hacer clic en un botón, se debe mostrar cuántos caracteres únicos tiene la entrada (sin contar espacios y diferenciando entre mayúsculas y minúsculas).
+
+Ejemplo:  
+Entrada: `"Hola mundo"`  
+Salida: `8 caracteres únicos (H, o, l, a, m, u, n, d)`
+
+---
+
+## Ejercicio 22: Formateador de Números
+Crea un formulario donde el usuario ingrese un número grande.  
+Al hacer clic en un botón, se debe mostrar el número formateado con separadores de miles.
+
+Ejemplo:  
+Entrada: `1000000`  
+Salida: `1,000,000`
+
+Usa `toLocaleString()`.
+
+---
+
+## Ejercicio 23: Generador de Siglas
+Crea un formulario donde el usuario ingrese un nombre completo o una frase.  
+Al hacer clic en un botón, se debe mostrar las iniciales de cada palabra en mayúsculas.
+
+Ejemplo:  
+Entrada: `"Universidad de Barcelona"`  
+Salida: `"UB"`
+
+---
+
+## Ejercicio 24: Reemplazo de Palabras
+Crea un formulario donde el usuario ingrese un texto y una palabra a reemplazar, junto con la nueva palabra.  
+Al hacer clic en un botón, se debe mostrar el texto con los reemplazos hechos.
+
+Ejemplo:  
+Entrada:  
+- Texto: `"Me gusta el chocolate"`
+- Reemplazar: `"chocolate"`
+- Nuevo texto: `"helado"`
+
+Salida: `"Me gusta el helado"`
+
+Usa `.replaceAll()`.
+
+---
+
+## Ejercicio 25: Simulador de Ahorro
+Crea un formulario donde el usuario ingrese:  
+1. Cantidad inicial de dinero.  
+2. Ahorro mensual.  
+3. Número de meses.  
+
+Al hacer clic en un botón, se debe calcular cuánto dinero tendrá después del período indicado.
+
+Fórmula: `total = cantidadInicial + (ahorroMensual * meses)`
+
+---
+
+## Ejercicio 26: Generador de Colores Aleatorios
+Crea un botón que, al hacer clic, cambie el color de fondo de la página a un color aleatorio en formato hexadecimal (`#RRGGBB`).
+
+Ejemplo de salida:  
+`#f1a2c3`
+
+Usa `Math.random().toString(16).slice(2, 8)` para generar colores.
+
+---
+
+## Ejercicio 27: Buscar GIFs con la API de Giphy
+Crea un formulario donde el usuario ingrese un término de búsqueda.  
+Al hacer clic en un botón, usa `fetch` para obtener un GIF relacionado desde la API de Giphy (`https://api.giphy.com/v1/gifs/search?api_key=TU_API_KEY&q=termino&limit=1`) y muestra el GIF.
+
+---
+
+## Ejercicio 28: Convertidor de Notación CamelCase y Snake_Case
+Crea un formulario donde el usuario ingrese una frase.  
+Al hacer clic en un botón, se debe mostrar:
+
+- La frase en **camelCase**.
+- La frase en **snake_case**.
+
+Ejemplo:  
+Entrada: `"Hola mundo feliz"`  
+Salida:  
+- **camelCase:** `holaMundoFeliz`
+- **snake_case:** `hola_mundo_feliz`
+
+---
+
+## Ejercicio 29: Contador de Clicks con Límite
+Crea un botón que, al hacer clic, aumente un contador en pantalla.  
+Cuando el contador llegue a `10`, el botón se desactiva.
+
+---
+
+## Ejercicio 30: Simulador de Dados
+Crea un botón que, al hacer clic, simule el lanzamiento de dos dados (números aleatorios del 1 al 6).  
+Debe mostrar los valores obtenidos y el resultado total.
+
+Ejemplo de salida:  
+`Dado 1: 4 | Dado 2: 6 | Total: 10`
+
+---
