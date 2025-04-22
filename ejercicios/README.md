@@ -37,6 +37,9 @@ Crea un formulario donde el usuario pueda:
 
 Si el usuario intenta dividir por 0, debe mostrarse un mensaje de error en pantalla indicando que la operación no es válida.
 
+> [!NOTE]
+> [Ver Solución](./soluciones/ejercicio%2004/)
+
 ---
 
 ## Ejercicio 05
@@ -247,6 +250,8 @@ Entrada:
 Salida: `"Me gusta el helado"`
 
 Usa `.replaceAll()`.
+
+[text](<soluciones/ejercicio 24>)
 
 ---
 
